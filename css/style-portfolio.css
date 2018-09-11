@@ -65,8 +65,10 @@
 }
 
 #portfolio .item h2 {
-    font-size: 32px;
+        font-size: 27px;
     padding: 10px;
+    font-family: sweet;
+    font-weight: lighter;
 }
 #portfolio .item1 {
 	display: none;

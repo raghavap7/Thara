@@ -1,3 +1,10 @@
+.bg{
+	background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 h1 {
     font-size: 37px;
     font-weight: 900;
@@ -9,10 +16,12 @@ h1 {
    border-bottom: 1px solid white;
 }
 p.desc-text{
-    font-size: 20px;
+    font-size: 29px;
     line-height: 35px;
     text-align: justify;
-	padding-top:40px;
+    padding-top: 40px;
+    font-family: sweet;
+    word-spacing: 8px;
 }
 .text-content.container {
     margin-top: 65px;
@@ -694,11 +703,13 @@ MEDIA QUERIES TABLET
         max-width: 500px;
     }
     h1 {
-        font-size: 32px;
-        font-weight: 900;
-        width: 280px;
-        letter-spacing: 0.040em;
-        border: 1px solid #2f2e2f;
+    font-size: 32px;
+    font-weight: 900;
+    width: 280px;
+    letter-spacing: 0.040em;
+    border: 1px solid #2f2e2f;
+    font-family: 'icomoon',cursive;
+    font-style: italic;
     }
     .picture_content {
         display: inline-block;
@@ -1008,3 +1019,84 @@ section .section-title {
 .team{
 	margin-top:20px !important;
 }
+
+
+
+@media screen and (max-width:1024px) and (min-width:724px) 
+{
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+		margin-left: 300px !important;
+	}
+	.navbar-default {
+		padding-bottom: 100px !important;
+	}
+	.navbar-nav.navbar-right:last-child {
+		margin-right: 100px !important;
+	}	
+	section {
+		margin-top: 30px !important;
+	}
+}
+
+@media screen and (max-width:768px) and (min-width:424px) 
+{
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+		margin-left: 190px !important;
+	}
+	.navbar-nav.navbar-right:last-child {
+		margin-right: 80px !important;
+		font-size:14px;
+	}	
+	section {
+		margin-top: 30px !important;
+	}
+	.description_content {
+		padding-top: 61px;
+	}
+}
+@media screen and (max-width:425px) and (min-width:375px) 
+{
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+		margin-top: -43px !important;
+		margin-left: 0px !important;
+	}
+	.logo1 {
+		width: 392px !important;
+	}
+	.background_content h1 {
+	width: 100%;
+	font-size: 2em;
+	}
+}
+@media screen and (max-width:375px) and (min-width:319px) 
+{
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+		margin-top: -43px !important;
+		margin-left: 0px !important;
+	}
+	.logo1{
+		width:340px !important;
+	}	
+	.background_content h1 {
+	width: 100%;
+	font-size: 1.5em;
+	}
+}
+@media screen and (max-width:320px) and (min-width:319px) 
+{
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+		margin-top: -43px !important;
+		margin-left: 0px !important;
+	}
+	.logo1{
+		width:270px !important;
+	}	
+	.background_content h1 {
+	width: 100%;
+	font-size: 1.5em;
+	}
+}
+
+
+
+
